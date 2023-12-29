@@ -1,0 +1,307 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+  /* border: 2px solid green; */
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 30px;
+  /* border:2px solid yellow */
+}  
+
+/* .jumbotron {
+  background-image: linear-gradient(to right, rgba(113, 193, 207, 0.801), rgb(39, 137, 167));
+  color: #fff;
+  padding: 150px 20px; /* Adjusted padding for smaller screens */
+  /* font-family: Montserrat, sans-serif; */
+/* } */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* width: auto; */
+}
+
+.jumbotron {
+  background: url('bg1.avif') center center no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(to right, rgba(113, 193, 207, 0.801), rgb(39, 137, 167)); */
+  color: #fff;
+  padding: 150px 20px; /* Adjusted padding for smaller screens */
+  font-family: Montserrat, sans-serif;
+  height: 100vh; /* Set height to 100% of the viewport height */
+  margin: 0; /* Remove margin */
+  box-sizing: border-box; /* Include padding and border in the total height */
+}
+
+.maintext{
+  border: 2px solid black;
+  margin: 200px 0  0;
+  padding: 0;
+  float: left;
+  /* height: 35px; */
+
+}
+
+.main-button{
+  background-color: orangered;
+  color:white;
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border-radius: 10px;
+}
+
+
+.container-fluid {
+  padding: 60px 20px; /* Adjusted padding for smaller screens */
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.logo-small {
+  color: #1edbf46c;
+  font-size: 30px; /* Adjusted font size for smaller screens */
+}
+
+.logo {
+  color: #1ef4f473;
+  font-size: 100px; /* Adjusted font size for smaller screens */
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto; /* Ensures images maintain aspect ratio on smaller screens */
+  margin-bottom: 10px;
+}
+
+/* .navbar {
+  background-color: #ffffff;
+  font-size: 14px !important;
+  line-height: 1.42857146 !important;
+  letter-spacing: 0px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+} */
+/* 
+.navbar {
+  background-color: grey; /* Transparent background */
+  /* font-size: 19px !important;
+  line-height: 1.42857146 !important;
+  letter-spacing: 0px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+  position: fixed;
+  color: white;
+  height: 14px;
+  
+}
+
+.navbar a{
+  color: wheat;
+}
+
+.navbar:after {
+  content: '';
+  /* display: block; */
+  /* height: 70px; /* Adjust the height based on your navbar height */
+  /* position: sticky;
+  top: 0;
+  background-color: red; /* Change to the desired color on scroll */
+  /* z-index: -1;
+} */ 
+
+.navbar {
+  background-color: #2e2e30;
+  /* color: #000000; */
+  font-size: 21px !important;
+  line-height: 1.42857146 !important;
+  letter-spacing: 0px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #000000 !important;
+  background-color: #d2dee0 !important; 
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: black !important;
+}
+
+
+.container-fluid{
+  width: 100%;
+  /* border: 2px solid red; */
+  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: 0 auto; /* Add this line to center the container horizontally */
+
+
+}
+
+.col-sm-8{
+  width: 100%;
+  /* border:2px solid blue; */
+  justify-content: center;
+  /* display: flex; */
+  margin: 0 auto; /* Add this line to center the container horizontally */
+
+}
+
+
+
+#contact{
+  border: 5px solid black;
+  background-color: #2e2e30;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.new-contact {
+  /* border: 2px solid purple; */
+  text-align: center; /* Center the text content horizontally */
+  padding: 20px; /* Add padding for better visual appearance */
+}
+
+.new-contact p {
+  margin: 10px 0; /* Add some vertical margin to the paragraphs for spacing */
+}
+
+.new-access {
+  /* border: 2px solid purple; */
+  text-align: center; /* Center the text content horizontally */
+  padding: 20px; /* Add padding for better visual appearance */
+}
+
+.new-access p {
+  margin: 10px 0; /* Add some vertical margin to the paragraphs for spacing */
+}
+
+
+.navbar-nav li a {
+  transition: color 0.7s ease, background-color 0.3s ease; /* Add transition to color and background-color */
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #000000 !important;
+  background-color: #d2dee0 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #0e98d4 !important;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #1ed7f4;
+}
+
+.slideanim {visibility:hidden;}
+
+.slide { 
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(70%);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+  } 
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+      padding: 100px 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .navbar-nav li a,
+  .navbar .navbar-brand {
+      color: #000000 !important;
+  }
+
+  .navbar-toggle {
+      color: #000000 !important;
+  }
+
+  .navbar-nav li a:hover,
+  .navbar-nav li.active a {
+      background-color: transparent !important;
+  }
+
+  .thumbnail img {
+      height: auto;
+  }
+
+  .logo {
+      font-size: 70px; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron {
+      padding: 80px 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .logo {
+      font-size: 50px; /* Adjusted font size for smaller screens */
+  }
+}
+
+
+#features{
+  background-color: #2e2e30;
+}
